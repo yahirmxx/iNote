@@ -1,0 +1,32 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 49px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: var(--font-roboto);
+  margin-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: var(--font-roboto);
+    white-space: pre-line;
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+  
+
+.divider {
+  border-bottom: 20px solid #adacac;
+  margin: 20px 0;
+}
